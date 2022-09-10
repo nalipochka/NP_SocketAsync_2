@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP_SocketAsync_2", "NP_SocketAsync_2\NP_SocketAsync_2.csproj", "{5971DF73-3F66-4C5F-8137-08B07123441D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientWindow", "ClientWindow\ClientWindow.csproj", "{01B47D48-1A1A-4441-8343-454A67792130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5971DF73-3F66-4C5F-8137-08B07123441D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5971DF73-3F66-4C5F-8137-08B07123441D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5971DF73-3F66-4C5F-8137-08B07123441D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5971DF73-3F66-4C5F-8137-08B07123441D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B47D48-1A1A-4441-8343-454A67792130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B47D48-1A1A-4441-8343-454A67792130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B47D48-1A1A-4441-8343-454A67792130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B47D48-1A1A-4441-8343-454A67792130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE334CBD-837E-4BB3-ACB8-03921F0E2B79}
+	EndGlobalSection
+EndGlobal

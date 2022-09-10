@@ -1,0 +1,19 @@
+﻿<Window x:Class="NP_SocketAsync_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NP_SocketAsync_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#A6E3E9">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="1" LastChildFill="False">
+            <Button x:Name="startServer_Btn" Background="#71C9CE" DockPanel.Dock="Top" Margin="10" Click="StartServer_Click">Start server</Button>
+        </DockPanel>
+        <TextBox x:Name="startServer_txtBox" Background="#E3FDFD" Margin="10"></TextBox>
+    </Grid>
+</Window>
